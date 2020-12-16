@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assesment HTML</title>
+</head>
+<body>
+    <h1>Puppy Adoption Page</h1>
+    <h2>Please enter your information to adopt a puppy and we'll email you back</h2>
+    <p>Please Note: First Name, Last Name, Password and Email are required</p>
+    <form method="get">
+        <label for="fname">First Name:</label>
+        <input type="text" name="firstname" id="fname" placeholder="First Name">
+
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lastname" id="fname" placeholder="Last Name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="name@email.com">
+
+        <label for="pass">Password:</label>
+        <input type="password" name="password" id="pass">
+
+        <p>Are you over the age of 18?</p>
+
+        <label for="yes">Yes:</label>
+        <input type="radio" value="yes" name="age">
+
+        <label for="no">No:</label>
+        <input type="radio" value="no" name="age">
+
+        <p>Do you have a Credit Card or PayPal?</p>
+        <select name="payment" id="">
+            <option value="Credit">Credit Card</option>
+            <option value="PayPal">PayPal</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit Feedback">
+    </form>
+</body>
+</html>
