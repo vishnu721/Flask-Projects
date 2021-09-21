@@ -1,8 +1,10 @@
 # Solution
 
-Create a project directory 
+1. Create a project directory
+```sh
 mkdir project
 cd project/
+```
 
 Check if docker and docker-compose are installed:
 ```sh
